@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homelan.Core", "Homelan.Core\Homelan.Core.csproj", "{19398703-3013-44D3-AEC6-AD5117048CE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homelan.Core", "Homelan.Core\Homelan.Core.csproj", "{19398703-3013-44D3-AEC6-AD5117048CE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DBE743A2-F2DF-45AF-9C18-43D651E7194C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homeland.Core.Tests", "Tests\Homeland.Core.Tests\Homeland.Core.Tests.csproj", "{D600CEB5-1726-4D2E-BA26-A3FAB52940DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{19398703-3013-44D3-AEC6-AD5117048CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19398703-3013-44D3-AEC6-AD5117048CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19398703-3013-44D3-AEC6-AD5117048CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D600CEB5-1726-4D2E-BA26-A3FAB52940DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D600CEB5-1726-4D2E-BA26-A3FAB52940DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D600CEB5-1726-4D2E-BA26-A3FAB52940DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D600CEB5-1726-4D2E-BA26-A3FAB52940DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D600CEB5-1726-4D2E-BA26-A3FAB52940DC} = {DBE743A2-F2DF-45AF-9C18-43D651E7194C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E056050A-FDBA-4FB1-BB88-A3DF6AF8F097}
